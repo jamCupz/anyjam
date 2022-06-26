@@ -3,6 +3,8 @@
 ### Anyway, it's just an npm that allows you to have images of cats and dogs xd.
 ### I may add more things in the future
 
+### Support on Discord ```Jam On Cup#7160```
+
 ## Instalation
 ```npm i anyjam```
 

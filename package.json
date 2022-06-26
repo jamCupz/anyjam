@@ -8,5 +8,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamCupz/anyjam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamCupz/anyjam/issues"
+  },
+  "homepage": "https://github.com/jamCupz/anyjam#readme",
+  "dependencies": {
+    "anyjam": "^1.3.2",
+    "discord.js": "^13.8.1"
+  }
 }
