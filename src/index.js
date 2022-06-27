@@ -4,13 +4,20 @@ var anyCat = ["https://cdn.discordapp.com/attachments/965637142816645140/9900024
 
 var anyDog = ["https://i.pinimg.com/736x/6c/a5/a7/6ca5a7efff600deda95e0719551e4c0d.jpg", "https://i.pinimg.com/736x/ee/f6/49/eef64900c87ee7ac2c57ebc2ef150fed.jpg", "https://i.pinimg.com/564x/ea/ee/c7/eaeec7028877ba29b665b0331c1f25ae.jpg", "https://i.pinimg.com/564x/e2/0f/9b/e20f9b7be8638fd1f739676f8a3e4343.jpg", "https://i.pinimg.com/736x/a8/6a/52/a86a52279ba20dca9a8ee15d6abbcfad.jpg", "https://64.media.tumblr.com/8093f48d41140c8dc410eb278e35599d/tumblr_oo2n9a4XcN1sqnsado1_r1_500.jpg", "https://i.pinimg.com/564x/da/35/f3/da35f35cd30970d941ba689f5884d340.jpg", "https://64.media.tumblr.com/c5b513e7b98ca4a6e9f52c1d680b43eb/1e596507a8df5262-54/s1280x1920/c4f8a5f7a7918239e1a821fa85a1fd5bc4330b0e.jpg", "https://images.unsplash.com/photo-1615751072497-5f5169febe17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3V0ZSUyMGRvZ3xlbnwwfHwwfHw%3D&w=1000&q=80", "https://i.pinimg.com/originals/2f/c0/60/2fc060ca0444112b5c2e6dfebccfcbc4.jpg", "https://i.pinimg.com/736x/76/9e/7c/769e7c137f64d3bd70c57846bb7801a9.jpg", "https://i.pinimg.com/736x/2e/82/95/2e8295a04265cab5c2dd992a40a2c21f.jpg", "https://i.pinimg.com/564x/e2/95/9b/e2959b918a3ec506b76bb87133151491.jpg", "https://i.pinimg.com/originals/ea/5a/1e/ea5a1eb7d9f1bca19e6a3280780a240f.jpg", "https://data.whicdn.com/images/316781399/original.jpg", "https://data.whicdn.com/images/297463805/original.jpg", "https://i.pinimg.com/736x/b4/c1/19/b4c119640398875a9966506ee7ee3e89.jpg", "https://i.pinimg.com/originals/18/47/1d/18471dde83c567480d3fa56d8fa29706.jpg", "https://i.pinimg.com/originals/4a/72/ef/4a72ef1f75791a7082dc8f4cecc3a6c5.jpg", "https://i.pinimg.com/736x/e8/02/1c/e8021ca25ab506dd6e7409f02a00545b.jpg", "https://i.pinimg.com/736x/13/7e/ff/137eff78a87c8919a4eed46505c06f75.jpg"];
 
+function randomDog() { 
+   return anyDog[Math.floor(Math.random * anyDog.length)] 
+}
+
 var anyGreeting = ["Hola", "Bonjour", "Wasup", "Hi", "What's up", "Buenas", "Ciao", "👋"];
 
 var anyFarewell = ["Chao", "Adios" ,"Bye", "Goodbye", "Adieu", "Addio"];
+
+var any = [""];
 
 module.exports = {
     anyCat,
     anyDog,
     anyGreeting,
-    anyFarewell
+    anyFarewell,
+    randomDog
 }

@@ -8,11 +8,15 @@
 ## Instalation
 ```npm i anyjam```
 
+## Variables
+- anyDog
+- anyCat
+- anyGreeting
+- anyFarewell
+
 ## Usage
 ```js
-const { anyCat, anyDog } = require("anyjam") //Define the module
-let random = anyDog[Math.floor(Math.random() * anyDog.length)] //You get an image of a dog or a cat in case you use "anyCat"
-
-
+const { anyCat, anyDog, anyGreeting, anyFarewell } = require("anyjam") //Define the module
+let random = anyDog[Math.floor(Math.random() * anyDog.length)] //You get an image or text
 
 ```
